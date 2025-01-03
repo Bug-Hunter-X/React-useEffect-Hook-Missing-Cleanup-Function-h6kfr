@@ -1,0 +1,2 @@
+# React useEffect Hook Missing Cleanup Function
+This example demonstrates a common error in React's `useEffect` hook: forgetting to include a cleanup function.  This can lead to memory leaks and unexpected behavior if the component unmounts before the asynchronous operation completes. The `bug.js` file shows the incorrect implementation, while `bugSolution.js` provides the corrected version.
